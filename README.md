@@ -111,8 +111,8 @@ Para una descripción detallada de cada etapa y de las decisiones de diseño, co
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/joel-domene/Proyecto1.git
-cd Proyecto1
+git clone https://github.com/joel-domene/Highway-Sign-Detection-OpenCV.git
+cd Highway-Sign-Detection-OpenCV
 
 # 2. (Recomendado) Crear y activar un entorno virtual
 python -m venv .venv
@@ -120,13 +120,6 @@ source .venv/bin/activate      # En Windows: .venv\Scripts\activate
 
 # 3. Instalar dependencias
 pip install -r requirements.txt
-```
-
-Contenido sugerido de `requirements.txt`:
-
-```
-opencv-python
-numpy
 ```
 
 -----
