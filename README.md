@@ -184,7 +184,7 @@ $ python main.py --test_path test_detection --detector combinado
 
 El detector combinado localiza los paneles y muestra su puntuación de confianza:
 
-![Detección de paneles de autopista con sus puntuaciones de confianza](docs/deteccion-ejemplo.png)
+![Detección de paneles de autopista con sus puntuaciones de confianza](docs/deteccion-ejemplo.jpeg)
 
 *Detección de tres paneles con sus scores (0.84, 0.80, 0.75) mediante el detector combinado.*
 
@@ -230,7 +230,7 @@ El detector combinado localiza los paneles y muestra su puntuación de confianza
 - Sensibilidad a la **oclusión parcial** de los paneles.
 - **Falsos positivos** residuales en regiones azules grandes (cielo, vehículos, vallas).
 
-![Ejemplo de detección con falsos positivos y fragmentación del panel](docs/deteccion-limitaciones.png)
+![Ejemplo de detección con falsos positivos y fragmentación del panel](docs/deteccion-limitaciones.jpeg)
 
 *Caso difícil: aparecen falsos positivos en el fondo y el panel grande se fragmenta en varias cajas.*
 
@@ -259,9 +259,9 @@ Métricas del **detector combinado** sobre el conjunto de test (102 imágenes):
 
 Curvas precisión-recall, comparando el detector propio con la referencia:
 
-![Curva precisión-recall a IoU > 0.5](docs/pr-curve-iou50.png)
+![Curva precisión-recall a IoU > 0.5](docs/pr-curve-iou50.jpeg)
 
-![Curva precisión-recall a IoU > 0.7](docs/pr-curve-iou70.png)
+![Curva precisión-recall a IoU > 0.7](docs/pr-curve-iou70.jpeg)
 
 -----
 
