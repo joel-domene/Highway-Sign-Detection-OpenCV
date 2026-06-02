@@ -261,8 +261,14 @@ Curvas precisión-recall, comparando el detector propio con la referencia:
 ## Contexto académico
 
 - **Asignatura:** Visión Artificial — Universidad Rey Juan Carlos (URJC).
-- **Curso:** 2025/26 — Práctica grupal.
+- **Curso:** — Práctica grupal.
 - **Restricción:** resolución sin aprendizaje automático.
+
+-----
+
+## Contribuidores
+
+Proyecto desarrollado en equipo.
 
 -----
 
