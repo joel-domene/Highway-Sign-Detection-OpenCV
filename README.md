@@ -21,7 +21,7 @@ El proyecto se desarrolló bajo una restricción deliberada: **resolver el probl
 Como aportación propia más allá del enunciado, se diseñó un **segundo detector independiente** basado en color y transformada de Hough, y un **detector combinado** que fusiona ambos enfoques mediante *Non-Maximum Suppression*.
 
 > **Contexto:** proyecto académico desarrollado **en equipo de 3 personas** como Práctica 1 de la asignatura Visión Artificial (URJC, curso 2025/26).
-> **Proyecto relacionado:** la lectura del texto de estos paneles se aborda en la [Highway Panel OCR](https://github.com/joel-domene/Highway-Sign-OCR), que parte de las detecciones generadas aquí.
+> **Proyecto relacionado:** la lectura del texto de estos paneles se aborda en la [Highway Panel OCR](https://github.com/joel-domene/Highway-Panel-OCR), que parte de las detecciones generadas aquí.
 
 -----
 
@@ -269,7 +269,7 @@ Curvas precisión-recall, comparando el detector propio con la referencia:
 
 ## Proyecto relacionado
 
-Este detector es la primera mitad de un sistema completo de lectura de paneles de autopista. La segunda mitad - localizar y leer el texto de los paneles detectados - se desarrolla en [Highway Panel OCR](https://github.com/joel-domene/Highway-Sign-OCR), que reutiliza el detector MSER de este proyecto para formar un pipeline de detección + reconocimiento de extremo a extremo.
+Este detector es la primera mitad de un sistema completo de lectura de paneles de autopista. La segunda mitad - localizar y leer el texto de los paneles detectados - se desarrolla en [Highway Panel OCR](https://github.com/joel-domene/Highway-Panel-OCR), que reutiliza el detector MSER de este proyecto para formar un pipeline de detección + reconocimiento de extremo a extremo.
 
 -----
 
